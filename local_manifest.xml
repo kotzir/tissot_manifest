@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+						<!-- Device Tree -->
+
+    <project path="device/xiaomi/tissot" name="kotzir/android_device_xiaomi_tissot" remote="github" revision="lineage-15.1" />
+
+						<!-- Vendor Libraries -->
+
+    <project path="vendor/xiaomi/tissot" name="kotzir/proprietary_vendor_xiaomi_tissot" remote="github" revision="lineage-15.1"/>
+
+    				<!-- Kernel -->
+
+    <project path="kernel/xiaomi/msm8953" name="kotzir/android_kernel_xiaomi_msm8953" remote="github" revision="lineage-15.1" />
+
+            <!-- Common Repo's -->
+
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
+
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="staging/lineage-15.1"/>
+
+</manifest>
